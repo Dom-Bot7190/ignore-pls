@@ -1,0 +1,13 @@
+from gpiozero import Servo
+from time import sleep
+
+myGPIO=17
+
+launchServo = Servo(myGPIO)
+
+while True:
+  launchServo.min()
+  sleep(10)
+  launchServo.max()
+  sleep(5)
+print("Perfect launch just like every single other time")
