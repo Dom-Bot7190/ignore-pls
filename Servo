@@ -14,7 +14,7 @@ while True:
   sleep(1)
   myServo.max()
   print("Fire")
-  sleep(1)
+  sleep(0.5)
   print("Perfect launch just like every single other time")
   myServo.min()
   break
