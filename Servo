@@ -1,7 +1,7 @@
 from gpiozero import Servo
 from time import sleep
 
-myGPIO=17z
+myGPIO=17
 
 maxPW=1.0/1000
 minPW=0/1000
