@@ -17,6 +17,7 @@ while True:
   sleep(0.5)
   myServo.min()
   print("Perfect launch just like every single other time")
+  sleep(0.5)
   myServo.max()
   sleep(0.5)
   myServo.min()
